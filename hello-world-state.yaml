@@ -18,7 +18,7 @@ spec:
       - name: hello-demo
         image: bhargavshah86/kube-test:v0.1
         ports:
-        - containerPort:81 
+        - containerPort: 81 
         resources:
           limits:
             memory: 256Mi
