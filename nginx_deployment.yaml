@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: nginx-deployment
+  name: nginx-corphomepage
   namespace: default
 spec: 
   replicas: 3 
@@ -11,6 +11,7 @@ spec:
       app: nginx
   template: 
     metadata: 
+      namespace: corporate-homepage
       labels: 
         app: nginx
     spec: 
