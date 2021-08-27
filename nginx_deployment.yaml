@@ -11,7 +11,7 @@ spec:
       app: nginx
   template: 
     metadata: 
-      namespace: corporate-homepage
+      defaultNamespace: corporate-homepage
       labels: 
         app: nginx
     spec: 
