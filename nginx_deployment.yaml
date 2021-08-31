@@ -38,4 +38,3 @@ spec:
           configMap:
             name: location-html-configmap
           name: nginx-location-file
-
