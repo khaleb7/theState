@@ -5,7 +5,7 @@ metadata:
   name: nginx-corphomepage
   namespace: default
 spec: 
-  replicas: 1
+  replicas: 2
   selector: 
     matchLabels: 
       app: nginx
@@ -17,7 +17,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: "jfrog.00test.com/dckrcache/nginx:1.18"
+          image: "jfrog.00test.com/dckrcache/nginx:1.21"
           name: nginx
           ports: 
             - 
