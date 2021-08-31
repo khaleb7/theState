@@ -17,7 +17,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: "jfrog.00test.com/dckrcache/nginx:1.20"
+          image: "jfrog.00test.com/dckrcache/nginx:1.17"
           name: nginx
           ports: 
             - 
