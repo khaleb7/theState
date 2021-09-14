@@ -4,6 +4,8 @@ kind: Deployment
 metadata: 
   name: nginx-corphomepage
   namespace: default
+  annotations:
+    consul.hashicorp.com/connect-inject: true
 spec: 
   replicas: 3
   selector: 
