@@ -19,7 +19,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: "nginx:1.23"
+          image: "nginx:1.22"
           name: nginx
           ports: 
             - 
