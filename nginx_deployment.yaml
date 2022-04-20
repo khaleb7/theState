@@ -19,7 +19,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: "jfrog-test.cnvr.in:443/nginx:1.19"
+          image: "jfrog-test.cnvr.in:443/dmscache/nginx:1.19"
           name: nginx
           ports: 
             - 
