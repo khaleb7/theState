@@ -33,4 +33,6 @@ spec:
           configMap: 
             name: index-html-configmap
           name: nginx-index-file
+      imagePullSecrets:
+      - name: dockerauth
        
