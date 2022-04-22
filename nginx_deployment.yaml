@@ -20,6 +20,7 @@ spec:
       containers: 
         - 
           image: "nginx:1.21.6"
+          imagePullPolicy: Always
           name: nginx
           ports: 
             - 
